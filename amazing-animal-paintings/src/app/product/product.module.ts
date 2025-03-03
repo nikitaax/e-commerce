@@ -5,6 +5,7 @@ import { MatCardModule } from '@angular/material/card';
 import { FlexModule } from '@angular/flex-layout';
 import { MatSnackBarModule } from '@angular/material/snack-bar';
 import { MatInputModule } from '@angular/material/input';
+import {MatSelectModule} from  '@angular/material/select'
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { MatInputModule } from '@angular/material/input';
     MatCardModule,
     FlexModule,
     MatSnackBarModule,
-    MatInputModule
+    MatInputModule,
+    MatSelectModule
   ]
 })
 export class ProductModule { }
